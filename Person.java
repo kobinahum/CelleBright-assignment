@@ -14,6 +14,15 @@ public class Person {
 		this.time=time;
 	}
 	
+	public Person(String name, String lastName) {
+		this.name=name;
+		this.lastName=lastName;
+		
+	}
+	public Person(String name) {
+		this.name=name;
+	}
+	
 	public String getImage() {
 		return image;
 	}
@@ -22,16 +31,8 @@ public class Person {
 		this.image = image;
 	}
 
-	public Person(String name, String lastName) {
-		this.name=name;
-		this.lastName=lastName;
-	
-	}
 
 	
-	public Person(String name) {
-		this.name=name;
-	}
 	public String getName() {
 		return this.name;
 	}
