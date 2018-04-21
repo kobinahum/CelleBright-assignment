@@ -5,6 +5,6 @@ My assignment was to understand the proprietary format of the file and write a s
 
 I read the file, and created a PhoneBook that includes all the contact information.
 
-To run, enter file path and the path to save the images for at run object.
+To run, enter file path and the path to save the images for, at run object.
 
 Enjoy
